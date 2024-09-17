@@ -18,6 +18,7 @@ int main()
     }
     std::cout << "Atlag szamitasa: " << std::endl;
     int atlag;
+    // sima vessző helyett pontos vessző kell
     for (int i = 0; i < N_ELEMENTS, i++)
     {
         // nincs pontos vessző a sor végén
