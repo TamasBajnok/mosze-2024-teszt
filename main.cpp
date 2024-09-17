@@ -6,6 +6,7 @@ int main()
 {
     // eltér a szögletes zárójelben lévő változó neve
     int *b = new int[NELEMENTS];
+    // nincs pontos vessző a sor végén
     std::cout << '1-100 ertekek duplazasa'
         // a for ciklus feltételéből hiányzik, az hogy meddig menjen, illetve hogy mekkora lépéközökkel
         for (int i = 0;)
@@ -14,6 +15,7 @@ int main()
     }
     for (int i = 0; i; i++)
     {
+        // nincs pontos vessző a sor végén
         std::cout << "Ertek:"
     }
     std::cout << "Atlag szamitasa: " << std::endl;
